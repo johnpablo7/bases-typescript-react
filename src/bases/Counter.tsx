@@ -13,8 +13,7 @@ export const Counter = ({ initialValue = 0 }: Props) => {
 
   return (
     <div>
-      <h1>CounterApp</h1>
-      <h2>{counter}</h2>
+      <h1>CounterApp: {counter}</h1>
 
       <button onClick={handleClick}>+1</button>
     </div>
